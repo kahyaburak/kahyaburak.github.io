@@ -13,6 +13,10 @@ body {
     min-height: 100vh;
 }
 
+#contact{
+    display: flex;
+}
+
 .container {
     display: flex;
     width: 90%;
@@ -73,4 +77,15 @@ ul {
 
 p {
     line-height: 1.6;
+}
+a {
+    text-decoration: none;
+    color:inherit;
+}
+a:hover{
+    font-size:  26px;
+}
+#contact a:hover{
+        font-size: inherit;
+        color: red;
 }
